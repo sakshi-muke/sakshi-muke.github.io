@@ -1,19 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Page Title</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Delight</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .hero {
+            background: url('"C:\Users\saksh\Downloads\152-1526785_coffee-shop-background.jpg"') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.5em;
+            margin-top: 10px;
+        }
+        .menu-preview {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .menu-preview div {
+            width: 30%;
+            text-align: center;
+        }
+        .menu-preview img {
+            max-width: 100%;
+            height: auto;
+        }
+        .contact {
+            background-color: #f8f8f8;
+            padding: 20px;
+            text-align: center;
+        }
+        .contact h2 {
+            margin-top: 0;
+        }
+        .contact p {
+            margin: 5px 0;
+        }
+    </style>
 </head>
 <body>
+    <header class="hero">
+        <h1>Welcome to Café Delight</h1>
+        <p>Your perfect coffee experience awaits</p>
+    </header>
 
-<h1>My Website</h1>
-<p>A website created by me.</p>
+    <section class="menu-preview">
+        <div>
+            <img src="coffee1.jpg" alt="Espresso">
+            <h3>Espresso</h3>
+            <p>Rich and bold espresso shots</p>
+        </div>
+        <div>
+            <img src="coffee2.jpg" alt="Latte">
+            <h3>Latte</h3>
+            <p>Smooth and creamy with a touch of sweetness</p>
+        </div>
+        <div>
+            <img src="coffee3.jpg" alt="Cappuccino">
+            <h3>Cappuccino</h3>
+            <p>Perfectly balanced with frothy milk</p>
+        </div>
+    </section>
 
+    <footer class="contact">
+        <h2>Contact Us</h2>
+        <p>123 Coffee Street, Java Town</p>
+        <p>Email: info@cafedelight.com</p>
+        <p>Phone: (123) 456-7890</p>
+    </footer>
 </body>
 </html>
