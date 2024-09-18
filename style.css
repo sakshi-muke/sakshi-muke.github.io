@@ -10,11 +10,11 @@ body{
     background-color: #2b1d0f;
     color: #fff;
 }
-
 header nav{
     background-color: #212121;
-    padding:20px;
-    display: flex;blockjustify-content: space-between;
+    padding: 20px;
+    display: flex;
+    blockjustify-content: space-between;
     align-items: center;
     z-index: 1;
 
@@ -36,7 +36,6 @@ form input[type="text"],button
    font-size: 18px;
    padding-radius: 4px;
 }
-
 form button[type="submit"]{
     background-color: #f44336;
     color: #ffff;
