@@ -106,7 +106,7 @@ display: none;
 min-height: 100vh;
 display: flex;
 align-items: center;
-background: url(images/back.png) no-repeat;
+background: url(back.jpg) no-repeat;
 background-size: cover;
 background-position: center center;
 }
@@ -207,7 +207,7 @@ font-size: 2rem;
 }
 
 .blogs{
-background: url(images/backGround.png) no-repeat;
+background: url(backGround.jpg) no-repeat;
 background-size: cover;
 background-position: center center;
 }
@@ -251,7 +251,7 @@ text-shadow: var(--box-shadow);
 }
 
 .newsletter{
-background: url(images/new.jpg) no-repeat;
+background: url(new.jpg) no-repeat;
 background-size: cover;
 background-position: center center;
 background-attachment: fixed;
@@ -334,7 +334,7 @@ font-size: 1.5rem;
 }
 
 .footer {
-background: url(images/backGround.png) no-repeat;
+background: url(backGround.jpg) no-repeat;
 background-size: cover;
 background-position: center center;
 }
