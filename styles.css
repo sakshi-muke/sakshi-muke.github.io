@@ -1,80 +1,94 @@
-/* General Styling */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-}
-
-header {
-    background-color: #333;
-    padding: 10px 0;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+/* About Us Section */
+.about {
     text-align: center;
+    margin: 40px 0;
+    padding: 40px 0;
+    background-color:  #f7e8ef;s
 }
 
-nav ul li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-nav ul li a:hover {
+.about h2 {
+    font-size: 40px;
     color: #ff4081;
+    margin-bottom: 20px;
 }
 
-/* About Section Styling */
-.about-section {
-    padding: 50px 20px;
-    background-color: #fff;
-    text-align: center;
+.about h2 span {
+    color:#ff4081;
 }
 
-.about-container {
-    max-width: 800px;
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
-.about-container h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
+.about-image {
+    width: 50%;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.about-image p {
+    margin-top: 10px;
+    font-weight: bold;
     color: #333;
 }
 
-.about-container p {
-    font-size: 18px;
-    line-height: 1.6;
-    color: #666;
+.about-text {
+    width: 50%;
+    text-align: left;
+}
+
+.about-text h3 {
+    font-size: 28px;
     margin-bottom: 20px;
 }
 
-.about-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
+.about-text p {
+    margin-bottom: 20px;
+    color: #555;
+    line-height: 1.8;
+    
 }
 
-/* Footer Styling */
-footer {
-    background-color: #333;
+.learn-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4081;
     color: #fff;
-    text-align: center;
-    padding: 20px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
-footer p {
-    margin: 0;
+.learn-more:hover {
+    background-color: #e73571;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #f1f1f1;
+}
+
+.feature-box {
+    text-align: center;
+    width: 22%;
+}
+
+.feature-box i {
+    font-size: 36px;
+    color: #555;
+}
+
+.feature-box p {
+    margin-top: 10px;
+    color: #333;
 }
