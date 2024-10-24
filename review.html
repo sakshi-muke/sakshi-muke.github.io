@@ -13,68 +13,42 @@
         </div>
 
 
-        <div class=" swiper review-row">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide box">
-                    <div class="client-review">
-                        <p>I love the gluten-free options! I ordered the gluten-free vanilla cake, and it was moist and flavorful. Will order again!</p>
-                    </div>
-                    <div class="client-info">
-                        <div class="img">
-                            <img src="proff.jpg" alt="">
-                        </div>
-                        <div class="clientDetailed">
-                            <h3>Hargun Kaur</h3>
-                            <p>Sweet cake's customer</p>
-                        </div>
-                    </div>
+        <!-- Displaying Reviews -->
+            <div class="reviews">
+                <div class="review">
+                    <p>"The chocolate cake was absolutely delicious! The texture was perfect, and it was not too sweet. Will definitely order again!"</p>
+                    <span>- Sarah J.</span>
                 </div>
-                <div class="swiper-slide box">
-                    <div class="client-review">
-                        <p>Absolutely loved the chocolate ganache cake! It was rich, moist, and beautifully decorated. Perfect for my son’s birthday!</p>
-                    </div>
-                    <div class="client-info">
-                        <div class="img">
-                            <img src="proff.jpg" alt="">
-                        </div>
-                        <div class="clientDetailed">
-                            <h3>Niya Jain</h3>
-                            <p>Sweet cake's customer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide box">
-                    <div class="client-review">
-                        <p>Great selection of flavors! I tried the lemon raspberry cake, and it was refreshing and delicious. Just a bit too sweet for my taste.</p>
-                    </div>
-                    <div class="client-info">
-                        <div class="img">
-                            <img src="proff.jpg" alt="">
-                        </div>
-                        <div class="clientDetailed">
-                            <h3>Ayesha Sharma</h3>
-                            <p>Sweet cake's customer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide box">
-                    <div class="client-review">
-                        <p>The custom design for my wedding cake was stunning! It matched our theme perfectly and tasted amazing. Highly recommend!</p>
-                    </div>
-                    <div class="client-info">
-                        <div class="img">
-                            <img src="proff.jpg" alt="">
-                        </div>
-                        <div class="clientDetailed">
-                            <h3>Neha choudhari</h3>
-                            <p>Sweet cake's customer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-pagination"></div>
 
+                <div class="review">
+                    <p>"Loved the strawberry shortcake! The cream was so light and fluffy, and the cake was moist. Highly recommended!"</p>
+                    <span>- David K.</span>
+                </div>
+
+                <div class="review">
+                    <p>"Fantastic service and amazing cakes! The presentation was just as good as the taste. Thank you, Sweet Cake!"</p>
+                    <span>- Emma R.</span>
+                </div>
             </div>
-        </div>
-    </section>
-    <!-- review section ends here  -->
 
+            <!-- Review Submission Form -->
+            <div class="review-form">
+                <h3>Leave Your Review</h3>
+                <form action="submit-review.php" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="review">Your Review:</label>
+                    <textarea id="review" name="review" rows="5" required></textarea>
+
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sweet Cake. All rights reserved.</p>
+    </footer>
+</body>
+</html>
