@@ -98,19 +98,7 @@ body {
 #cart-items li {
     margin-bottom: 10px;
 }
-#checkout {
-    background-color: #32CD32;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin-top: 20px;
-    cursor: pointer;
-    border-radius: 5px;
-}
 
-#checkout:hover {
-    background-color: #2a9f2a;
-}
 
 button {
     padding: 10px 20px;
