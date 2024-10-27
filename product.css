@@ -77,7 +77,7 @@ body {
     cursor: pointer;
 }
 
-.add-to-cart:hover {
+.add-to-cart button:hover {
     background-color: #ff3366;
 }
 
