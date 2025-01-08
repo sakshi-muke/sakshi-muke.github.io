@@ -22,6 +22,12 @@ function updateCart() {
     cartTotal.textContent = total;
 }
 
+// Redirect to the Signup/Login page
+function redirectToSignup() {
+    // Replace 'signup.html' with the actual path to your signup/login page
+    window.location.href = 'signup.html';
+  }
+
 const addToCartButtons = document.querySelectorAll('.add-to-cart');
 addToCartButtons.forEach(button => {
     button.addEventListener('click', function() {
